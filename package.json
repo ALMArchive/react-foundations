@@ -1,0 +1,63 @@
+{
+  "name": "react-foundations",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A set of generic foundational React components for building component libraries",
+  "main": "dist/index.bundle.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npx jest",
+    "clean": "rm -rd dist",
+    "rollup": "rollup -c ./rollup.config.js",
+    "build": "npm run test && npm run clean && npm run compile && npm run rollup",
+    "compile": "tsc --outDir dist --project tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALMaclaine/react-foundations.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "React",
+    "Foundations",
+    "Components",
+    "Generic"
+  ],
+  "author": "Alessandro MacLaine",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ALMaclaine/react-foundations/issues"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "homepage": "https://github.com/ALMaclaine/react-foundations#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "add-px-to-style": "^1.0.0",
+    "character-sequencer": "^0.1.1",
+    "classnames": "^2.2.6",
+    "csstype": "^3.0.5",
+    "hyphenate-style-name": "^1.0.4",
+    "regreplacer": "^1.1.11"
+  },
+  "devDependencies": {
+    "@spinglobal/rollup-utils": "^1.0.14",
+    "@spinglobal/typescript-utils": "^1.0.5",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "esm": "^3.2.25",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}

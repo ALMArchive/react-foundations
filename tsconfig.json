@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.build.json",
+  "include": [
+    "tests/*",
+    "src/*"
+  ],
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}

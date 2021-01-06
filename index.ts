@@ -1,0 +1,31 @@
+// Action
+export * from './src'
+export type {
+    ActionProps,
+    BordererProps,
+    ShadowerProps,
+    FlexerProps,
+    GradientProps,
+    GradientBaseProps,
+    RotatingGradientProps,
+    ColorProbability,
+    BaseHeaderProps,
+    HeaderProps,
+    HoverProps,
+    IconProps,
+    RawIconProps,
+    ImageProps,
+    RawImageProps,
+    BaseImageProps,
+    ParagraphProps,
+    PositionBlockProps,
+    PropsClonerProps,
+    SurfaceProps,
+    FontProps,
+    BaseTextProps,
+    TextProps,
+    TransformerProps,
+    Coordinates2D,
+    PaddingerProps,
+    MarginerProps
+} from './src';
