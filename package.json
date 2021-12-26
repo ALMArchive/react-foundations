@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ALMaclaine/react-foundations.git"
+    "url": "git+https://github.com/ALMArchive/react-foundations.git"
   },
   "files": [
     "dist"
@@ -30,13 +30,13 @@
   "author": "Alessandro MacLaine",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/ALMaclaine/react-foundations/issues"
+    "url": "https://github.com/ALMArchive/react-foundations/issues"
   },
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "homepage": "https://github.com/ALMaclaine/react-foundations#readme",
+  "homepage": "https://github.com/ALMArchive/react-foundations#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
